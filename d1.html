@@ -1,0 +1,79 @@
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css"  media="screen,projection"/>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <a id="top"></a>
+      <ul id="navdropdown" class="dropdown-content">
+          <li><a href="p1.html">P1</a></li>
+          <li><a href="p2.html">P2</a></li>
+          <li><a href="p3.html">P3</a></li>
+          <li><a href="m1.html">M1</a></li>
+          <li><a href="d1.html">D1</a></li>
+          <li><a href="d2.html">D2</a></li>
+          <li><a href="Bibliography.html">Bibliography</a></li>
+      </ul>
+        <nav>
+          <div class="nav-wrapper blue lighten-1">
+            <a style="padding-left: 20px" href="index.html" class="brand-logo">Assignment 28.1 - Reece Small</a>
+            <a style="padding-left: 20px" href="index.html" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="index.html">Home</a></li>
+              <li><a class="dropdown-button" href="#!" data-activates="navdropdown">Criteria<i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+              <li><a>By Reece Small</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="p1.html">P1</a></li>
+              <li><a href="p2.html">P2</a></li>
+              <li><a href="p3.html">P3</a></li>
+              <li><a href="m1.html">M1</a></li>
+              <li><a href="d1.html">D1</a></li>
+              <li><a href="d2.html">D2</a></li>
+              <li><a href="Bibliography.html">Bibliography</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <form>
+          <div class="row">
+            <div class="col s12 m12 l12" id="D1">
+              <div class="card">
+                <div class="card-content">
+                  <span class="card-title">(D1) Explain the role of the TCP/IP protocol and how it links to application layer protocols</span>
+                </div>
+                <div class="card-action">
+                  <p>TCP/IP has a primary role in transferring data between nodes through the internet, below are elaborated notes on protocols connected to the application layer of the OSI model.<p>
+                  <h4>Protocols</h4>
+                  <p>The application layer in the OSI model has a singular purpose of being the UI (User interface) of an internet based connection that is between two nodes, an example would be a web page identifying how it looks as a website when viewed on a clients machine using any web browser. There are multiple protocols that function within the application layer, so that it makes the internet more reliable and usable now. Below I elaborate on each of the protocols.</p>
+                  <h4>FTP</h4>
+                  <p>FTP stands for file transfer protocol, it is used to move data onto web servers, these are the host to another type of TCP/IP protocol network, this could be the internet. As an example, downloading a movie clip from a website. These are a special form of protocol which requires the protocol to login with credentials that is provided by the owner/admin of the web server that you are trying to connect to. Occasionally no credentials are required to enter an FTP server if they allow view only users to see and copy files.</p>
+                  <h4>HTTP</h4>
+                  <p>This is a protocol that allows two internet enabled nodes to establish a connection to each other, this can be a client and a web server that are trying to communicate, it is mainly used on the WWW which is the primary network of computers which make the internet. HTTP stands for the term: 'hypertext transfer protocol'.</p>
+                  <p>'Short for HyperText Transfer Protocol, HTTP is the underlying protocol used by the World Wide Web. HTTP defines how messages are formatted and transmitted, and what actions Web servers and browsers should take in response to various commands'. (Webopedia, 2016)</p>
+                  <h4>DNS</h4>
+                  <p>DNS, or domain name system, is a protocol which has the job of distributing names to any wireless device that is connected to a network, e.g. a router has the role of distributing a DNS for the home network to give names to each device,  so as an example a scanner will have its own domain name as will the computer that is trying to connect to the scanner to communicate with one another. They are used so that you can easily identify different systems within your local network, and other devices on the World Wide Web once the data/packets have been sent far enough to another local router.</p>
+                  <p>'DNS is an abbreviation for Domain Name System, a system for naming computers and network services that is organized into a hierarchy of domains. DNS naming is used in TCP/IP networks, such as the Internet, to locate computers and services through user-friendly names.'(Microsoft, 2016)</p>
+                  <h4>SMTP</h4>
+                  <p>This is another kind of TCP/IP protocol, which serves the purpose of permitting you to receive and send emails through the internet, it's function is to queue up messages, this is why it requires other protocols to work with it to be able to download and save to a mailbox whenever.</p>
+                  <a href="Bibliography.html">Bibliography Referances</a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </form>
+
+    </body>
+  </html>

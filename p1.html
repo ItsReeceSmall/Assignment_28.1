@@ -1,0 +1,103 @@
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css"  media="screen,projection"/>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <a id="top"></a>
+      <ul id="navdropdown" class="dropdown-content">
+          <li><a href="p1.html">P1</a></li>
+          <li><a href="p2.html">P2</a></li>
+          <li><a href="p3.html">P3</a></li>
+          <li><a href="m1.html">M1</a></li>
+          <li><a href="d1.html">D1</a></li>
+          <li><a href="d2.html">D2</a></li>
+          <li><a href="Bibliography.html">Bibliography</a></li>
+      </ul>
+        <nav>
+          <div class="nav-wrapper blue lighten-1">
+            <a style="padding-left: 20px" href="index.html" class="brand-logo">Assignment 28.1 - Reece Small</a>
+            <a style="padding-left: 20px" href="index.html" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="index.html">Home</a></li>
+              <li><a class="dropdown-button" href="#!" data-activates="navdropdown">Criteria<i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+              <li><a>By Reece Small</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="p1.html">P1</a></li>
+              <li><a href="p2.html">P2</a></li>
+              <li><a href="p3.html">P3</a></li>
+              <li><a href="m1.html">M1</a></li>
+              <li><a href="d1.html">D1</a></li>
+              <li><a href="d2.html">D2</a></li>
+              <li><a href="Bibliography.html">Bibliography</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <form>
+          <div class="row">
+            <div class="col s12 m12 l12" id="P1">
+              <div class="card">
+                <div class="card-content">
+                  <span class="card-title">(P1) Outline the web architecture and components which enable internet and web functionality</span>
+                </div>
+                <div class="card-action">
+	                <h3>Components</h3>
+	                <h4>Protocols</h4>
+	                <p>These are a set of rules, which nodes on a network must comply with so they can communicate with each other. There are many kinds of protocols for sending and receiving data on the internet, and the most common one is TCP/IP (Transfer control protocol/ Internet protocol), this protocol ensures the data packet is actually sent before it sends another one, if it isn't sent successfully then the sending node will resent it.</p>
+	                <p>A second protocol would be UPD, this protocol states the time in which packets will be sent, and regardless of whether they reach their destination or not they won't stop sending until the protocol is complete. This may sound not very useful, but when applied to live streaming or online gaming, this is the frames we miss in the content, the data packets that don't reach their destination.</p>
+	                <h4>Web Servers</h4>
+	                <p>These are a vital aspect of web architecture and in effect the entire Internet itself. This type of server is dedicated to distributing data to users whom are connected to the Internet. Nearly a web server hosts everything on the Internet, this can include access to web sites, data storage, and download links and so on. Not only are they used in websites for Internet applications, but hosting game servers also require multiple nodes joined together.</p>
+	                <h4>E-Mail</h4>
+	                <p>This is a very well-known and common part of the architecture, most people have their own email address, It is a form of receiving your post online using something called an e-mail address, no one can take your address either as they are unique, nobody can duplicate where they have their emails sent to. The two common protocols for Email are an IMAP and POP, but Il elaborate on them in another paragraph later.</p>
+	                <h4>Web 2.0</h4>
+	                <p>This aspect of web architecture isn't really physical hardware or an item that needs to be built, it is a list of methods/rules that are compiled which form a website structure, this can vary from software to hardware. One of the primary features it can provide is social platform integration, for example, embedding on websites, the types of content that can be embedded can include social networks and video sharing site content.</p>
+	                <h4>SMTP</h4>
+	                <p>This stands for Simple Mail Transfer Protocol, it is an Internet protocol, which allows the sending, and receiving of E-Mails using the Internet to communicate, which uses IP networks. To make sending mail possible, several other protocols are used in conjunction, this includes POP and IMAP. If this protocol didn't exist then sending emails over the Internet wouldn't be possible.</p>
+	                <h4>FTP (File Transfer Protocol)</h4>
+	                <p>As shown in the heading for this section, FTP stands for File Transfer Protocol; this protocol permits the downloading and uploading of data to web servers that are hosting such data to the Internet. Logon credentials are often required to be able to establish a connection to the web server so it can be modified; this in turn is one of the primary methods of making changes to websites.</p>
+	                <h4>Router</h4>
+	                <p>This is a piece of hardware that is dedicated to sending the data packets they receive in the correct direction that the client or node has sent. This can mean extra data is added to the packets to ensure that in future, new recipients of the data in question and the ISP have a way of knowing where to send the data and in a quicker way. In recent times, with technological improvements, routers now can select the best path for which to send the data instead of sending it through the first path it can locate. An example picture of a router is shown below:</p>
+	                <img src="Pictures/router.png" style="width:50%; height:50%">
+	                <p>(D-Link, 2012)</p>
+	                <h4>Browser</h4>
+	                <p>This is a key aspect in web architecture; web browsers are pieces of software, which clients install to their machines in order to be able to translate and present web pages and scripts that they contain. If we didn't have web browsers, then all we could do is read the code and content inside the .html file, as there is no program to translate it into a page that is friendlier to the eye. Browsers are the primary way in, which we communicate with web servers and the data they host to the Internet. Some examples of web browsers would include: Opera, Internet Explorer, Google Chrome, Safari, and Mozilla Firefox.</p>
+	                <h4>ISP (Internet service provider)</h4>
+	                <p>An ISP (Internet Service Provider) is a company, which provides a buyable service that is an Internet connection. It works by a customer selecting a service provider; they then allow connection down those lines so the customer can then use the Internet. In simpler terms, packets are sent through the ISP to their destination.</p>
+	                <h3>Web Architecture</h3>
+	                <h4>Uploading</h4>
+	                <p>This is a primary feature of web architecture and is the process where data you upload to a web server can be downloaded, viewed or edited online by people that are permitted access to it. Access can be via a website or through FTP. FTP (which was covered earlier on in this report) is a protocol, which allows connection to a web server (providing that you have the permissions to do so), and access the data on it.</p>
+	                <h4>WWW (World Wide Web)</h4>
+	                <p>These are the primary set of hyperlinks that link website viewers to other sites and pages on the Internet, these pages and sites are accessed using web browsers as stated above. If one person has made a site and connected all these pages together correctly, then they should all connect together in one way or another through a browser.</p>
+	                <h4>Domain Name</h4>
+	                <p>This is an address to a website that can be viewed by anyone that enters the address. For example, if I was to enter 'Google.com' into a web browser with a working Internet connection. Google is recognised as the domain name and the .com is the domain extension. Extensions allow the domain name to be used multiple times without the worry of them interloping on the Internet. If domain names didn't exist then it'd be very difficult to locate web sites and pages, as they would be in their IP address form, which is numeric and harder to remember.</p>
+	                <h4>Domain Structure</h4>
+	                <p>This is one of the primary methods that web browsers interpret hyperlinks to a hosted web page on a website, as an example; 'http://www.facebook.com', the first part of the link informs the browser that it is a hypertext transfer protocol, the second part informs the browser that the site is within the world wide web (WWW), and the third part is the domain name and its extension, this tells the browser where it should look to access the website.</p>
+	                <h4>Registras</h4>
+	                <p>These are parts of web architecture that ensure they keep a track and a record of any information relating to the domain name that it is assigned to record, this includes information such as registry's contact information.</p>
+	                <h4>ISP</h4>
+	                <p>As stated earlier, an ISP is a company based around providing a buyable internet service, they do all the hard work of setting the buyer up with a DNS and so on, along with an IP address that can either be static or dynamic, static IP addresses don't change which can reduce hassle but decrease security, whereas dynamic addresses change frequently, this can be annoying if you want to host a dedicated server on a single IP address, but a work around would be to set up a Dynamic DNS which changes your IP address to a web address, so when the IP address changes the Dynamic DNS doesn't.</p>
+	                <h4>Web Hosting Services</h4>
+	                <p>These are companies which offer the choice to buy their service which is to host a server that is connected to the internet/ World wide web, they often provide fixed storage space, if more is required then upgrade options are usually available. In summary they offer full access to a web server and that is commonly via a client panel within the site or via FTP.</p>
+                  <a href="Bibliography.html">Bibliography Referances</a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </form>
+
+    </body>
+  </html>

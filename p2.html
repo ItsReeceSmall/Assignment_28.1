@@ -1,0 +1,85 @@
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css"  media="screen,projection"/>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <a id="top"></a>
+      <ul id="navdropdown" class="dropdown-content">
+          <li><a href="p1.html">P1</a></li>
+          <li><a href="p2.html">P2</a></li>
+          <li><a href="p3.html">P3</a></li>
+          <li><a href="m1.html">M1</a></li>
+          <li><a href="d1.html">D1</a></li>
+          <li><a href="d2.html">D2</a></li>
+          <li><a href="Bibliography.html">Bibliography</a></li>
+      </ul>
+        <nav>
+          <div class="nav-wrapper blue lighten-1">
+            <a style="padding-left: 20px" href="index.html" class="brand-logo">Assignment 28.1 - Reece Small</a>
+            <a style="padding-left: 20px" href="index.html" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="index.html">Home</a></li>
+              <li><a class="dropdown-button" href="#!" data-activates="navdropdown">Criteria<i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+              <li><a>By Reece Small</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="p1.html">P1</a></li>
+              <li><a href="p2.html">P2</a></li>
+              <li><a href="p3.html">P3</a></li>
+              <li><a href="m1.html">M1</a></li>
+              <li><a href="d1.html">D1</a></li>
+              <li><a href="d2.html">D2</a></li>
+              <li><a href="Bibliography.html">Bibliography</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <form>
+          <div class="row">
+            <div class="col s12 m12 l12" id="P2">
+              <div class="card">
+                <div class="card-content">
+                  <span class="card-title">(P2) Explain the user side and server side factors that influence the performance of a website</span>
+                </div>
+                <div class="card-action">
+	                <h3>Client Side</h3>
+	                <h4>Download Speed</h4>
+	                <p>The most important factor to take into consideration when looking at a website is the speed at which it is downloaded to the clients machine. Nowadays fibre optic broadband is a norm so high download speeds are common. The simple thing to consider here is the slower the Internet connection; the longer it will take to download the web page. Comparing current fibre optic speeds to older dial up modem speeds, the time difference of loading the web page would be greatly significant. Dial up was only really capable at loading smaller web pages but still at a long duration.</p>
+	                <h4>Processor Speed</h4>
+	                <p>The speed of a processor is vital when it comes to processing web pages being processed by the browser. The slower the processor, the longer it will take the browser to process the incoming information and convert it to a web page, to then display on screen. Even though processor speed is not a big issue due to the advances in technology these days, this problem can still come up with older lower end systems; some can still be purchased today. In conclusion it is not really a factor to worry about, as a large majority of modern systems are fast. On the other hand, some browsers require large amounts of RAM to run along with a lot of the processors power too, this in effect can slow the PCs speed and performance, along with the performance of a website when it is being viewed.</p>
+	                <h4>Cache Memory</h4>
+	                <p>According to PCMag.com, Cache memory means; 'A temporary storage area in memory or on disk that holds the most recently downloaded Web pages. As you jump from Web page to Web page, caching those pages in memory lets you quickly go back to a page without having to download it from the Web again. In order to ensure that the latest page is displayed, the browser compares the dates of the cached page with the current Web page. If the Web page has not changed, the cached page is displayed immediately. If the Web page has changed, it is downloaded, displayed and cached.' (PCMag, 2015)</p>
+	                <p>This type of memory is temporary memory used as storage which holds webpages in the clients system, browsers utilize this memory if you are constantly loading data from the same website o page. Obviously over time the cache will build up in size and will be updated when it needs to be through updates. So this process is a trade-off that client browsers have to make, they either load a page in shorter times or have a slow system, as the cache gets lager in size.</p>
+	                <h4>Browser</h4>
+	                <p>This factor is key also. Most browsers are automatically updated so they remain fast and responsive on nearly every machine, but there are occasions when they can have the difficulty of compatibility. Compatibility issues that can occur could be issues with interpreting and displaying of the page; browser is not powerful enough to show content in real time etc. Most commonly used browsers such as Google Chrome do not seem to have such problems but in browsers such as Internet Explorer these problems do arise as earlier versions of the browser were very slow and performance was affected negatively.</p>
+	                <h3>Server Side</h3>
+	                <h4>Bandwidth Available</h4>
+	                <p>The available bandwidth of a site is of great importance as it states the maximum amount of traffic the site can receive at a given time; there is not anything the client user can really do about it. As en example, lets say the sites bandwidth is equivalent to a dial-up modem, around a few kilobytes a second, no matter how fast the users machines connection is, the download process of the page can only go as fast as the webserver sending the page, this important factor should be taken into consideration as it can highly affect website performance.</p>
+	                <h4>Executions to be performed before load</h4>
+	                <p>This factor effects the time it takes for the web page to respond to the user, providing that the users connection is faster than the web servers. In simpler terms, anything that has to be loaded before the web page can run, will cause delay for the client and make the load times of the site slower. This could possibly be PHP scripts being ran so the site is viewed properly on the clients end, even though this isn't that long of a process, all factors relating to the time taken to load must be considered. Looking further into this, server side scripts that take a long time will bottleneck the websites performance for both the webserver and the client viewer.</p>
+	                <h4>File Types e.g. GIF, WAV, SWF, AVI, Bitmap</h4>
+	                <p>The example file types mentioned in the heading above are a handful of the file types that are common culprits for performance issues on a website's web server. As an example say the user requests to load a web page which contains a small sized low resolution JPEG file, this page wow load relatively fast providing that the users connection is reliable and fast also. However, on the opposite end of the scale would be a web page containing an AVI video file, of this was to be loaded then load times would dramatically increase and affect the performance of the site. In summary this all depends on the size of stored files and the connection speed of the web server along with the clients connection speed. A common method implemented a while back to video streaming called buffering allows videos to be streamed on segments if your bandwidth isn't capable of keeping up with the video, the webserver continues to supply the remaining segments until you receive the entire video, a good example of a website which does this would be YouTube.</p>
+	                <h4>Number Of Hits</h4>
+	                <p>This is the number of views of certain aspects on a webserver such as most viewed pages and what pages have the most view time. These types of results are recorded and analysed so the hosts know what to add to keep clients viewing the site. This can be similar content to what has already received a lot of attention on the website. This is more of a traffic booster and not a performance booster.</p>
+                  <a href="Bibliography.html">Bibliography Referances</a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </form>
+
+    </body>
+  </html>
